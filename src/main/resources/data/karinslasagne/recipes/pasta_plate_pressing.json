@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "tag": "c:foods/pastas/raw_pastas"
+    }
+  ],
+  "results": [
+    {
+      "item": "karinslasagne:lasagne_plate"
+    }
+  ]
+}

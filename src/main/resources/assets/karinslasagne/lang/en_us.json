@@ -3,7 +3,17 @@
   "item.karinslasagne.lasagne_plate": "Lasagne Plate",
   "item.karinslasagne.bechamel_sauce_bucket": "Bechamel Sauce Bucket",
   "item.karinslasagne.meat_sauce_bucket": "Meat Sauce Bucket",
+  "item.karinslasagne.carton": "Empty Carton",
+  "item.karinslasagne.lasagne_base_plate": "Lasagne Base With Plates",
+  "item.karinslasagne.lasagne_base_meat": "Lasagne Base With Meat Sauce",
+  "item.karinslasagne.lasagne_base_bechamel": "Lasagne Base With Bechamel",
+
   "block.karinslasagne.knife_block": "THE KNIFE CUBE",
+  "block.karinslasagne.meat_sauce_block": "Meat Sauce",
+  "block.karinslasagne.bechamel_sauce_block": "Bechamel Sauce",
+
+  "fluid.karinslasagne.meat_sauce": "Meat Sauce",
+  "fluid.karinslasagne.bechamel_sauce": "Bechamel Sauce",
 
   "itemgroup.karinslasagne": "Karins Lasagne"
 }

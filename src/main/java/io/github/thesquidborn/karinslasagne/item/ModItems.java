@@ -25,6 +25,26 @@ public class ModItems {
             .build();
 
     // ITEMS
+    public static final Item CARTON = register(
+            new Item(new FabricItemSettings()),
+            "carton"
+    );
+
+    public static final Item LASAGNE_BASE_PLATE = register(
+            new Item(new FabricItemSettings()),
+            "lasagne_base_plate"
+    );
+
+    public static final Item LASAGNE_BASE_MEAT = register(
+            new Item(new FabricItemSettings()),
+            "lasagne_base_meat"
+    );
+
+    public static final Item LASAGNE_BASE_BECHAMEL = register(
+            new Item(new FabricItemSettings()),
+            "lasagne_base_bechamel"
+    );
+
     public static final Item LASAGNE_PLATE = register(
             // Ignore the food component for now, we'll cover it later in the food section.
             new Item(new FabricItemSettings()),
@@ -54,6 +74,10 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(KARINS_LASAGNE_GROUP_KEY).register(itemGroup -> {
             itemGroup.add(ModItems.LASAGNE_PLATE);
             itemGroup.add(ModItems.KARINS_LASAGNE);
+            itemGroup.add(ModItems.CARTON);
+            itemGroup.add(ModItems.LASAGNE_BASE_PLATE);
+            itemGroup.add(ModItems.LASAGNE_BASE_MEAT);
+            itemGroup.add(ModItems.LASAGNE_BASE_BECHAMEL);
         });
     }
 }

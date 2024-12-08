@@ -1,0 +1,69 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "karinslasagne:carton"
+  },
+  "loops": 4,
+  "results": [
+    {
+      "item": "karinslasagne:karins_lasagne"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "karinslasagne:carton"
+        },
+        {
+          "amount": 8100,
+          "fluid": "karinslasagne:meat_sauce",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "karinslasagne:lasagne_base_meat"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "karinslasagne:lasagne_base_meat"
+        },
+        {
+          "amount": 8100,
+          "fluid": "karinslasagne:bechamel_sauce",
+          "nbt": {}
+        }
+      ],
+      "results": [
+        {
+          "item": "karinslasagne:lasagne_base_bechamel"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "karinslasagne:lasagne_base_bechamel"
+        },
+        {
+          "item": "karinslasagne:lasagne_plate"
+        }
+      ],
+      "results": [
+        {
+          "item": "karinslasagne:lasagne_base_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "karinslasagne:lasagne_base_meat"
+  }
+}

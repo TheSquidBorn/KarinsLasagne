@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:foods/raw_meats"
+    },
+    {
+      "tag": "c:foods/vegetables/onion"
+    },
+    {
+      "tag": "c:foods/vegetables/tomato"
+    }
+  ],
+  "results": [
+    {
+      "amount": 16200,
+      "fluid": "karinslasagne:meat_sauce"
+    }
+  ]
+}

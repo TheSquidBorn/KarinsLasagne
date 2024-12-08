@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:flour"
+    },
+    {
+      "amount": 81000,
+      "fluid": "milk:still_milk"
+    }
+  ],
+  "results": [
+    {
+      "amount": 40500,
+      "fluid": "karinslasagne:bechamel_sauce"
+    }
+  ]
+}
